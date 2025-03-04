@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   MMT Local Provision SDK. For more information, please visit
                        DESC
 
-  s.homepage         = 'https://github.com/NealWills/NLESPProvision.git'
+  s.homepage         = 'https://github.com/NealWills/NLESPProvision'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Neal' => 'nealwills93@gmail.com' }

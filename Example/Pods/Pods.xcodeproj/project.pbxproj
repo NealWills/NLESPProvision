@@ -7,27 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0367F7E4EAF67DDA8C94708E7D3DDCFA /* NLESPProvision-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1B6A6AFB9F3DA456B40765DD81205D /* NLESPProvision-dummy.m */; };
-		336C2CC9C7F7F5B3988BAB09E32DFDB2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8801966C72E5A0EA9C1FF9DC3B5C4 /* ReplaceMe.swift */; };
+		03A29CF488E7B05045FDD8EE91981B64 /* session.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0029501B4500416E15D96375CB4CD849 /* session.pb.swift */; };
+		148DDBD45B2EEC6445A1B4D6DBB88D7D /* wifi_config.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9F30829C246D69562512282A25F275 /* wifi_config.pb.swift */; };
+		160077F51BF9FDA654F51DF728CC864D /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDFEA6F3CDC494E28A24535073D9454 /* Division.swift */; };
+		174B3F48F2A0C32652F4EEA169C63A5F /* AESDecryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888ED86CC0889E003CE5AB235CF36B0B /* AESDecryptor.swift */; };
+		177DAC734ACD509CFB6E2351F925405B /* ESPScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFEC55E2F790E3657FEED368D1D0C3 /* ESPScanResult.swift */; };
+		18625C60097C2671738B88EF90B79612 /* BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C23AA76AC2B332301E98CBF8843CEC4 /* BigUInt.swift */; };
+		1BA657B5F57659F33B4AE4AEB88E112C /* ESPCodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E32FB5E52F19F9632142BB6CFE54F5D /* ESPCodeable.swift */; };
+		220D2C1B79B9572E14B24524825D8F92 /* ESPSecurity0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4A75021ED634994EBCC63C93698EF /* ESPSecurity0.swift */; };
+		2540E68F5CEF54E15EEC63CDC89BC575 /* ESPWiFiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2114B9927909B6071F679EB9CEB0CFEF /* ESPWiFiManager.swift */; };
+		326AB7FEA4FF40948752C8ED30BBE902 /* sec2.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB9B1C01E1444E8DA55AB72935287B4 /* sec2.pb.swift */; };
+		35FBF23607FFDB501EB9DA699EAE20B3 /* ESPWifiNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954EFB680DDA8B826D25DC4A2481AC7 /* ESPWifiNetwork.swift */; };
 		3722625AF1564C63F466FBE8D61E91FE /* Pods-NLESPProvision_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 955E15D916A7507D7CEE0BCE0B38C1D4 /* Pods-NLESPProvision_Tests-dummy.m */; };
+		44D89220C2FEAA764DFF9664EE33C6D8 /* Floating Point Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F957D9D1F66D45C9867F275D9583C74A /* Floating Point Conversion.swift */; };
+		4962A7C2D4FA45B7B6EFCE35EBEDA88E /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82496A6B0DCC08F1D077E05FF64120D /* SRP.swift */; };
+		4A65ED6E5C65073FDCE7FCA4332148CB /* Bitwise Ops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F6F5B19DF5A6BE8E6A54C8DDF09AD /* Bitwise Ops.swift */; };
 		4A99BC98C977DBBDCCB10B31193143A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		C53B8DB84DC91D57691176DF387C9E05 /* NLESPProvision-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA05EA5882087546091339B6E3C1E1EC /* NLESPProvision-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F85DFC88E98FD9ECB877AA9A4DD6379 /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B9F41878EDE680335BB542B72DC70 /* Subtraction.swift */; };
+		55A663BF58E099C289303A3099D7F96A /* ESPProvisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F7DB4D1153B0570291D81C61AB237D /* ESPProvisionManager.swift */; };
+		561D235073AFD98504A27DB249F57343 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCD80DFCD2822DF7CC35A0871B413F /* Data+Extensions.swift */; };
+		57C746E0D024A0D67BB22D4CE7031ABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		5B775CA591D65171F9363BA644E151D1 /* ESPSoftAPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F918549DED30164793E19AE319C63200 /* ESPSoftAPTransport.swift */; };
+		6658B8740F87A2D514323A256FBAFDCE /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B4B51070455893AF68DF2214AE8A81 /* Hashable.swift */; };
+		678AB4E34B19EFD87975B0333A860B9A /* wifi_scan.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D88D7E10EF7DDC8196F5226F0ED2429 /* wifi_scan.pb.swift */; };
+		691320896636236F0A2AADCE4D3F4634 /* Words and Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE8ABA5B98AF77DD0D212F64FBA86D /* Words and Bits.swift */; };
+		6B89896738F24759410D111D0B10F0AA /* ESPScanStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801FB3DE8ABE4BCB37CA352ECDEF434E /* ESPScanStatus.swift */; };
+		6CB501EFE1FACB2354C19AE3BBC03493 /* AuthenticationFailure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A15C5947564518C57AD46DB75CC7FF /* AuthenticationFailure.swift */; };
+		77FC52E038FEBC6E6C689DC4FFAD1EDB /* HexUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC29DF3FEB2DC5B0BB79C84DF572909 /* HexUtils.swift */; };
+		87F1179FEF1373A5D99B4B4A91F4D3C2 /* NLESPProvision-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEA3E59AADFAE6BE89E83C1188FE4FC /* NLESPProvision-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B62DF208594DE6FA59CED701E107F13 /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6103680BEFC22A907390A80A7191E292 /* Comparable.swift */; };
+		91036D0B0DFE12B0A7CBE2E181D8DA57 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CFB8E55D81EF0470689A62DF655162 /* Addition.swift */; };
+		91550D9F2047156CB1BF7A9CD55C55DF /* ESPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D59EDD8FCBE0636997B798A05970F /* ESPConstants.swift */; };
+		929E9A777EF22DA2448B6ABFFC08B3E3 /* ESPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665FF80CDBBC3F626BAB124A1963492 /* ESPSession.swift */; };
+		9475EAC6FC14EC1D784426184CF916B5 /* ESPErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317EEDFF252691354F481F5EF49059D4 /* ESPErrors.swift */; };
+		96AEDF58232C82C499860AA26D2E9A68 /* NLESPProvision-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DABD5B5C94F2D88F6DEEB08DBDDABB70 /* NLESPProvision-dummy.m */; };
+		97688F07B26E3BB0A77D414AB2273CC8 /* sec0.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = C136981FBC59602072528F7BACF43D10 /* sec0.pb.swift */; };
+		A3FB14D9D4FDADD3973213CC86CFD0A2 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EF84312004E543B0F5D72D49CC25DE /* Client.swift */; };
+		A56BBE1984F17FC5294A0B4C555CF8BD /* ESPProvision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF7D412D97C96C4F195F6FB05A460B /* ESPProvision.swift */; };
+		AA683A25AEBE2EAA18BA0AD18E5C91EE /* String Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0555C37E55192CA72348E8E8D0C122 /* String Conversion.swift */; };
+		B181868B9F96B227C15BF9859C194130 /* ESPLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC935B9E6728A18647C6DA6AC05DBA9 /* ESPLogging.swift */; };
+		B6219BAD00DD38C5FD53B5A9B3FCE8B4 /* sec1.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220B62D97F5EA39CBEE38B845FB41E28 /* sec1.pb.swift */; };
+		BAFE33E8547F0582746F985DA753AD3E /* ESPDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EB9F635AAF539B375ADDBF276BCD8C /* ESPDevice.swift */; };
+		BC721DFBA22A0E4B13518EAD242C2F2D /* ESPSecurity1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04B945F8F6CB6B6E4C4F6BC208AD24 /* ESPSecurity1.swift */; };
+		BF9BF3D117690FB9EB601E4184B5AD78 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4492A9675EB278F2F887F8087670A7A /* Group.swift */; };
 		C775BF23E1DDA725389BC8917B841D6E /* Pods-NLESPProvision_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 003BDB0325C0C65C3193B31E06DFE497 /* Pods-NLESPProvision_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC7083529678C6A1C9ED42545D2D8F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		CD105B5A1E2DD6AE873B8C3FD4307FF6 /* Data Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BEE2240B02225BA650D77E6F550B6 /* Data Conversion.swift */; };
+		D1E214C9BE3A8E146CEC22B94F13AC08 /* CryptoAES.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E803BB39C982C8D93D0482265DA6A0 /* CryptoAES.swift */; };
+		D778AAC154527FD3A4D822EA9BC23A0A /* ESPCommunicable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FAF5F36F3B0EE13AADD0E9AFF750E /* ESPCommunicable.swift */; };
+		D7EC346369542C5DFE235C922F12DAB2 /* wifi_constants.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4624B7B1B94DAFE48964E873046A057 /* wifi_constants.pb.swift */; };
+		DD0F6019FF4B63F068BB62A5A0493CB1 /* ESPBleTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434D19BAA533E061B9669779E0455911 /* ESPBleTransport.swift */; };
+		E0AA0900ED6F9A6BDAE5D470898200FE /* ESPSecurity2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308A6D0A487B07EC5C42E33F2C8F5B1 /* ESPSecurity2.swift */; };
+		E4B109BE514D220E8C41B846E2D47B98 /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9B6F8E04571937468D0DF397E697D7 /* Exponentiation.swift */; };
+		F15F5A906A5830C0D0EF7BC81EFC03A2 /* Integer Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4112AE89CA1CBB0F034D7D1AB8FF35 /* Integer Conversion.swift */; };
 		F2304173D999CFD16EBF322385C0D81E /* Pods-NLESPProvision_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C2EEEA4D1778ED0437728538585B71 /* Pods-NLESPProvision_Example-dummy.m */; };
 		F42BDD32AFBD74EF7A9BD8D80E048FE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		F4544B9CF84C65ABE7CCDE6C37CFC3FF /* ESPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D674B2B6065823D79CD4064AD603F6 /* ESPExtensions.swift */; };
+		F66650FD60B37E8A3924BADD0A776A4C /* ESPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FA50C76C8667EC34015A76D0F13E18 /* ESPUtility.swift */; };
+		F6CCD0DCD4EC7D9636E6F7060CB0D52F /* Shifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E560AAB024049B03E0E97694CF7F3C /* Shifts.swift */; };
 		F6E96BC9A059B1864922EE6A24EB9E4D /* Pods-NLESPProvision_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D073474BF5E6875759EE2D0D90628308 /* Pods-NLESPProvision_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F82DA082E7957169AA5BE43A578CE53F /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE440D51B5075E20890FB9CA452CAACA /* Multiplication.swift */; };
+		FAE2CFCC8CEF46F959E16E6B0AACE7C9 /* constants.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E80D43C88F2CBD01EB7744551BF32C /* constants.pb.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		240A7B6AC0DFE77A635F8C8A592E6E3E /* PBXContainerItemProxy */ = {
+		1368D5FF2E58FE28F7F57D6D5B2B691A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CB29870424F188331DC9D4ACF034E28E;
 			remoteInfo = NLESPProvision;
 		};
-		E2DBE83150B041417D779688DBADBA00 /* PBXContainerItemProxy */ = {
+		9EE9867D9D821B2F52CA36C11504D557 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,38 +87,88 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0029501B4500416E15D96375CB4CD849 /* session.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = session.pb.swift; sourceTree = "<group>"; };
 		003BDB0325C0C65C3193B31E06DFE497 /* Pods-NLESPProvision_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NLESPProvision_Example-umbrella.h"; sourceTree = "<group>"; };
 		01F4ADAE80C1F9B128E73E7C53559016 /* Pods-NLESPProvision_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLESPProvision_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		11226D853813B16F933AE50C8BBFD5BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		14B222EC2998AFE9B9AEE2DD0CE42C48 /* NLESPProvision-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NLESPProvision-prefix.pch"; sourceTree = "<group>"; };
+		0D88D7E10EF7DDC8196F5226F0ED2429 /* wifi_scan.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = wifi_scan.pb.swift; sourceTree = "<group>"; };
+		0DB9B1C01E1444E8DA55AB72935287B4 /* sec2.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = sec2.pb.swift; sourceTree = "<group>"; };
+		0DC935B9E6728A18647C6DA6AC05DBA9 /* ESPLogging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPLogging.swift; sourceTree = "<group>"; };
+		0DDCD80DFCD2822DF7CC35A0871B413F /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		0EDFEA6F3CDC494E28A24535073D9454 /* Division.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+		0F9FAF5F36F3B0EE13AADD0E9AFF750E /* ESPCommunicable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPCommunicable.swift; sourceTree = "<group>"; };
+		127D59EDD8FCBE0636997B798A05970F /* ESPConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPConstants.swift; sourceTree = "<group>"; };
+		1308A6D0A487B07EC5C42E33F2C8F5B1 /* ESPSecurity2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPSecurity2.swift; sourceTree = "<group>"; };
+		13FE8ABA5B98AF77DD0D212F64FBA86D /* Words and Bits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Words and Bits.swift"; sourceTree = "<group>"; };
+		17E4A75021ED634994EBCC63C93698EF /* ESPSecurity0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPSecurity0.swift; sourceTree = "<group>"; };
+		1C4F6F5B19DF5A6BE8E6A54C8DDF09AD /* Bitwise Ops.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bitwise Ops.swift"; sourceTree = "<group>"; };
+		2114B9927909B6071F679EB9CEB0CFEF /* ESPWiFiManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPWiFiManager.swift; path = NLESPProvision/Classes/ESPWiFiManager.swift; sourceTree = "<group>"; };
+		220B62D97F5EA39CBEE38B845FB41E28 /* sec1.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = sec1.pb.swift; sourceTree = "<group>"; };
+		27FA50C76C8667EC34015A76D0F13E18 /* ESPUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPUtility.swift; sourceTree = "<group>"; };
 		2D5415823081871017BED877B3D3D62F /* Pods-NLESPProvision_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLESPProvision_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2DFAC14EB519771B8DF1506DA74E7A8B /* NLESPProvision-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NLESPProvision-Info.plist"; sourceTree = "<group>"; };
+		317EEDFF252691354F481F5EF49059D4 /* ESPErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPErrors.swift; sourceTree = "<group>"; };
 		31856423A199F6F125454331CD974C21 /* Pods-NLESPProvision_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NLESPProvision_Example.modulemap"; sourceTree = "<group>"; };
 		356AD27FD2E81448DF60BD0FF478F005 /* Pods-NLESPProvision_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NLESPProvision_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E9F30829C246D69562512282A25F275 /* wifi_config.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = wifi_config.pb.swift; sourceTree = "<group>"; };
+		41F7DB4D1153B0570291D81C61AB237D /* ESPProvisionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPProvisionManager.swift; path = NLESPProvision/Classes/ESPProvisionManager.swift; sourceTree = "<group>"; };
+		434D19BAA533E061B9669779E0455911 /* ESPBleTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPBleTransport.swift; sourceTree = "<group>"; };
+		4954EFB680DDA8B826D25DC4A2481AC7 /* ESPWifiNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPWifiNetwork.swift; sourceTree = "<group>"; };
+		4DDF7D412D97C96C4F195F6FB05A460B /* ESPProvision.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPProvision.swift; path = NLESPProvision/Classes/ESPProvision.swift; sourceTree = "<group>"; };
+		4E32FB5E52F19F9632142BB6CFE54F5D /* ESPCodeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPCodeable.swift; sourceTree = "<group>"; };
+		527BEE2240B02225BA650D77E6F550B6 /* Data Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data Conversion.swift"; sourceTree = "<group>"; };
+		53CFB8E55D81EF0470689A62DF655162 /* Addition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Addition.swift; sourceTree = "<group>"; };
+		5444F06A73B17E3DDBE661CFD4FF0C05 /* NLESPProvision-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NLESPProvision-prefix.pch"; sourceTree = "<group>"; };
 		57DC2B9B5B65481F752F1225D8B13EE6 /* Pods-NLESPProvision_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NLESPProvision_Tests-Info.plist"; sourceTree = "<group>"; };
-		67792BD0CC778EE2FD0440856CB19FF4 /* NLESPProvision.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NLESPProvision.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		59D674B2B6065823D79CD4064AD603F6 /* ESPExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPExtensions.swift; sourceTree = "<group>"; };
+		5DBB42090236172C3A9585C60C640780 /* NLESPProvision.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NLESPProvision.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		60AE66E3D981DEA275CC3B9ED04D0102 /* NLESPProvision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NLESPProvision.debug.xcconfig; sourceTree = "<group>"; };
+		6103680BEFC22A907390A80A7191E292 /* Comparable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Comparable.swift; sourceTree = "<group>"; };
+		6ADFEC55E2F790E3657FEED368D1D0C3 /* ESPScanResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPScanResult.swift; sourceTree = "<group>"; };
 		6C75D47DC418E2AC10FD01664F2C846C /* Pods-NLESPProvision_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NLESPProvision_Tests.modulemap"; sourceTree = "<group>"; };
-		791EA23C70BDCBF87F03CBDB7E0D69E8 /* NLESPProvision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NLESPProvision.release.xcconfig; sourceTree = "<group>"; };
+		6CEA3E59AADFAE6BE89E83C1188FE4FC /* NLESPProvision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NLESPProvision-umbrella.h"; sourceTree = "<group>"; };
+		71F7B5EFA215C006E0AA4897AFA1257F /* NLESPProvision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NLESPProvision.release.xcconfig; sourceTree = "<group>"; };
+		77A15C5947564518C57AD46DB75CC7FF /* AuthenticationFailure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthenticationFailure.swift; sourceTree = "<group>"; };
+		801FB3DE8ABE4BCB37CA352ECDEF434E /* ESPScanStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPScanStatus.swift; sourceTree = "<group>"; };
 		8307FC47C70E43A4338D671B67C2128A /* Pods-NLESPProvision_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NLESPProvision_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		842327D04C109C12B212AAF09D2B2A44 /* NLESPProvision-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NLESPProvision-Info.plist"; sourceTree = "<group>"; };
 		8582C0EFC9F62648428535371307BED4 /* NLESPProvision */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NLESPProvision; path = NLESPProvision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8708886B167FEBAC653A928B7F6E94E7 /* Pods-NLESPProvision_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NLESPProvision_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8B1B6A6AFB9F3DA456B40765DD81205D /* NLESPProvision-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NLESPProvision-dummy.m"; sourceTree = "<group>"; };
+		888ED86CC0889E003CE5AB235CF36B0B /* AESDecryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AESDecryptor.swift; sourceTree = "<group>"; };
+		89B4B51070455893AF68DF2214AE8A81 /* Hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Hashable.swift; sourceTree = "<group>"; };
 		90C2EEEA4D1778ED0437728538585B71 /* Pods-NLESPProvision_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NLESPProvision_Example-dummy.m"; sourceTree = "<group>"; };
+		94E560AAB024049B03E0E97694CF7F3C /* Shifts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Shifts.swift; sourceTree = "<group>"; };
 		955E15D916A7507D7CEE0BCE0B38C1D4 /* Pods-NLESPProvision_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NLESPProvision_Tests-dummy.m"; sourceTree = "<group>"; };
 		96598F05C42B141BEBE8BE7FE6B48EBB /* Pods-NLESPProvision_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLESPProvision_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		97EF84312004E543B0F5D72D49CC25DE /* Client.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		9A6B7F3611E8C83F2CAE8BA11EE385AB /* Pods-NLESPProvision_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NLESPProvision_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C23AA76AC2B332301E98CBF8843CEC4 /* BigUInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BigUInt.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA05EA5882087546091339B6E3C1E1EC /* NLESPProvision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NLESPProvision-umbrella.h"; sourceTree = "<group>"; };
+		9F4112AE89CA1CBB0F034D7D1AB8FF35 /* Integer Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Integer Conversion.swift"; sourceTree = "<group>"; };
+		A5567A0ACB57835E22EA65D41574BAED /* NLESPProvision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NLESPProvision.modulemap; sourceTree = "<group>"; };
+		A7E803BB39C982C8D93D0482265DA6A0 /* CryptoAES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoAES.swift; sourceTree = "<group>"; };
+		AD9B6F8E04571937468D0DF397E697D7 /* Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Exponentiation.swift; sourceTree = "<group>"; };
+		B4492A9675EB278F2F887F8087670A7A /* Group.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		B97CD875ED415824BA1435D9A45CF677 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BB5DF3BDB0B764F8E288B3C611834AC2 /* Pods-NLESPProvision_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NLESPProvision_Tests"; path = Pods_NLESPProvision_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCBCB8D32F52D6C1EC3CD2DCF23930B0 /* NLESPProvision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NLESPProvision.modulemap; sourceTree = "<group>"; };
-		C251E4782236B904126C62D45DF93555 /* NLESPProvision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NLESPProvision.debug.xcconfig; sourceTree = "<group>"; };
+		BD1B9F41878EDE680335BB542B72DC70 /* Subtraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Subtraction.swift; sourceTree = "<group>"; };
+		C136981FBC59602072528F7BACF43D10 /* sec0.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = sec0.pb.swift; sourceTree = "<group>"; };
+		C456D1ACADE5B8AA1FEDC106CD9EC1D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CAC29DF3FEB2DC5B0BB79C84DF572909 /* HexUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HexUtils.swift; sourceTree = "<group>"; };
+		CB0555C37E55192CA72348E8E8D0C122 /* String Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String Conversion.swift"; sourceTree = "<group>"; };
 		D073474BF5E6875759EE2D0D90628308 /* Pods-NLESPProvision_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NLESPProvision_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D2E80D43C88F2CBD01EB7744551BF32C /* constants.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = constants.pb.swift; sourceTree = "<group>"; };
+		D7EB9F635AAF539B375ADDBF276BCD8C /* ESPDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPDevice.swift; path = NLESPProvision/Classes/ESPDevice.swift; sourceTree = "<group>"; };
+		D82496A6B0DCC08F1D077E05FF64120D /* SRP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SRP.swift; sourceTree = "<group>"; };
+		DABD5B5C94F2D88F6DEEB08DBDDABB70 /* NLESPProvision-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NLESPProvision-dummy.m"; sourceTree = "<group>"; };
 		DB4E9E3BBC4F5EEA47C1CA9BE5F2F61F /* Pods-NLESPProvision_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLESPProvision_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DCFF6A18CA06240CC79C553BFE3FBC77 /* Pods-NLESPProvision_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NLESPProvision_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4624B7B1B94DAFE48964E873046A057 /* wifi_constants.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = wifi_constants.pb.swift; sourceTree = "<group>"; };
+		EE440D51B5075E20890FB9CA452CAACA /* Multiplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Multiplication.swift; sourceTree = "<group>"; };
 		EFE10FDF802A8F42D80F3234F16C2DB3 /* Pods-NLESPProvision_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NLESPProvision_Example"; path = Pods_NLESPProvision_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5B8801966C72E5A0EA9C1FF9DC3B5C4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NLESPProvision/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		F8A12BDA93C538C365524CE956B8B6A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F665FF80CDBBC3F626BAB124A1963492 /* ESPSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPSession.swift; path = NLESPProvision/Classes/ESPSession.swift; sourceTree = "<group>"; };
+		F918549DED30164793E19AE319C63200 /* ESPSoftAPTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPSoftAPTransport.swift; sourceTree = "<group>"; };
+		F957D9D1F66D45C9867F275D9583C74A /* Floating Point Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Floating Point Conversion.swift"; sourceTree = "<group>"; };
+		FD04B945F8F6CB6B6E4C4F6BC208AD24 /* ESPSecurity1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ESPSecurity1.swift; sourceTree = "<group>"; };
 		FD5D29B61B73B0E9D102A1F133752ABF /* Pods-NLESPProvision_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NLESPProvision_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,11 +181,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		400F2213C3FE54E10D181EFFEDF3D428 /* Frameworks */ = {
+		7DEF855EC28216714B1E88194952B6C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC7083529678C6A1C9ED42545D2D8F22 /* Foundation.framework in Frameworks */,
+				57C746E0D024A0D67BB22D4CE7031ABF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,19 +200,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3191A8FD39844A76268E459E0A76539C /* Support Files */ = {
+		1738226232C63733DF9A9EF496A14344 /* Transport */ = {
 			isa = PBXGroup;
 			children = (
-				BCBCB8D32F52D6C1EC3CD2DCF23930B0 /* NLESPProvision.modulemap */,
-				8B1B6A6AFB9F3DA456B40765DD81205D /* NLESPProvision-dummy.m */,
-				2DFAC14EB519771B8DF1506DA74E7A8B /* NLESPProvision-Info.plist */,
-				14B222EC2998AFE9B9AEE2DD0CE42C48 /* NLESPProvision-prefix.pch */,
-				AA05EA5882087546091339B6E3C1E1EC /* NLESPProvision-umbrella.h */,
-				C251E4782236B904126C62D45DF93555 /* NLESPProvision.debug.xcconfig */,
-				791EA23C70BDCBF87F03CBDB7E0D69E8 /* NLESPProvision.release.xcconfig */,
+				434D19BAA533E061B9669779E0455911 /* ESPBleTransport.swift */,
+				0F9FAF5F36F3B0EE13AADD0E9AFF750E /* ESPCommunicable.swift */,
+				F918549DED30164793E19AE319C63200 /* ESPSoftAPTransport.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NLESPProvision";
+			name = Transport;
+			path = NLESPProvision/Classes/Transport;
+			sourceTree = "<group>";
+		};
+		1D266424D5B436D6792D4F6B3F8BF944 /* Proto */ = {
+			isa = PBXGroup;
+			children = (
+				D2E80D43C88F2CBD01EB7744551BF32C /* constants.pb.swift */,
+				C136981FBC59602072528F7BACF43D10 /* sec0.pb.swift */,
+				220B62D97F5EA39CBEE38B845FB41E28 /* sec1.pb.swift */,
+				0DB9B1C01E1444E8DA55AB72935287B4 /* sec2.pb.swift */,
+				0029501B4500416E15D96375CB4CD849 /* session.pb.swift */,
+				3E9F30829C246D69562512282A25F275 /* wifi_config.pb.swift */,
+				E4624B7B1B94DAFE48964E873046A057 /* wifi_constants.pb.swift */,
+				0D88D7E10EF7DDC8196F5226F0ED2429 /* wifi_scan.pb.swift */,
+			);
+			name = Proto;
+			path = NLESPProvision/Classes/Proto;
 			sourceTree = "<group>";
 		};
 		5379242AF3B2BC3CC49B8CE76563974D /* Pods-NLESPProvision_Tests */ = {
@@ -131,33 +243,116 @@
 			path = "Target Support Files/Pods-NLESPProvision_Tests";
 			sourceTree = "<group>";
 		};
-		660FC6EA334BA910958957F234707972 /* Pod */ = {
+		56146B11488BD7D9D5E5C5C81B3AADF6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				11226D853813B16F933AE50C8BBFD5BA /* LICENSE */,
-				67792BD0CC778EE2FD0440856CB19FF4 /* NLESPProvision.podspec */,
-				F8A12BDA93C538C365524CE956B8B6A4 /* README.md */,
+				A5567A0ACB57835E22EA65D41574BAED /* NLESPProvision.modulemap */,
+				DABD5B5C94F2D88F6DEEB08DBDDABB70 /* NLESPProvision-dummy.m */,
+				842327D04C109C12B212AAF09D2B2A44 /* NLESPProvision-Info.plist */,
+				5444F06A73B17E3DDBE661CFD4FF0C05 /* NLESPProvision-prefix.pch */,
+				6CEA3E59AADFAE6BE89E83C1188FE4FC /* NLESPProvision-umbrella.h */,
+				60AE66E3D981DEA275CC3B9ED04D0102 /* NLESPProvision.debug.xcconfig */,
+				71F7B5EFA215C006E0AA4897AFA1257F /* NLESPProvision.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NLESPProvision";
 			sourceTree = "<group>";
 		};
-		9E71FF2C49E2578C5184E2BA7DDDB197 /* NLESPProvision */ = {
+		57B1F7484F39A9DE1A66F9D346703402 /* SRP */ = {
 			isa = PBXGroup;
 			children = (
-				F5B8801966C72E5A0EA9C1FF9DC3B5C4 /* ReplaceMe.swift */,
-				660FC6EA334BA910958957F234707972 /* Pod */,
-				3191A8FD39844A76268E459E0A76539C /* Support Files */,
+				77A15C5947564518C57AD46DB75CC7FF /* AuthenticationFailure.swift */,
+				97EF84312004E543B0F5D72D49CC25DE /* Client.swift */,
+				0DDCD80DFCD2822DF7CC35A0871B413F /* Data+Extensions.swift */,
+				B4492A9675EB278F2F887F8087670A7A /* Group.swift */,
+				D82496A6B0DCC08F1D077E05FF64120D /* SRP.swift */,
+			);
+			name = SRP;
+			path = SRP;
+			sourceTree = "<group>";
+		};
+		73A285B4DC6B802C4F311975BBA94C51 /* NLESPProvision */ = {
+			isa = PBXGroup;
+			children = (
+				D7EB9F635AAF539B375ADDBF276BCD8C /* ESPDevice.swift */,
+				4DDF7D412D97C96C4F195F6FB05A460B /* ESPProvision.swift */,
+				41F7DB4D1153B0570291D81C61AB237D /* ESPProvisionManager.swift */,
+				F665FF80CDBBC3F626BAB124A1963492 /* ESPSession.swift */,
+				2114B9927909B6071F679EB9CEB0CFEF /* ESPWiFiManager.swift */,
+				FD18CACA2D2CE13B101AD9B30335326B /* Crypto */,
+				9D14529271116DB420FAA7D430CCD835 /* Model */,
+				8A6FA484E97D5798D708C776E68A6570 /* Pod */,
+				1D266424D5B436D6792D4F6B3F8BF944 /* Proto */,
+				AFA51100C7FCBC522194807BEC1C7914 /* Security2 */,
+				56146B11488BD7D9D5E5C5C81B3AADF6 /* Support Files */,
+				1738226232C63733DF9A9EF496A14344 /* Transport */,
+				EC12AB64073E0F0FA92060EA5C1470A0 /* Utility */,
 			);
 			name = NLESPProvision;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		ACDFAC8E3FA9D50DB0CE5DF96C8FF83B /* Development Pods */ = {
+		8A6FA484E97D5798D708C776E68A6570 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9E71FF2C49E2578C5184E2BA7DDDB197 /* NLESPProvision */,
+				C456D1ACADE5B8AA1FEDC106CD9EC1D3 /* LICENSE */,
+				5DBB42090236172C3A9585C60C640780 /* NLESPProvision.podspec */,
+				B97CD875ED415824BA1435D9A45CF677 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9D14529271116DB420FAA7D430CCD835 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6ADFEC55E2F790E3657FEED368D1D0C3 /* ESPScanResult.swift */,
+				801FB3DE8ABE4BCB37CA352ECDEF434E /* ESPScanStatus.swift */,
+				4954EFB680DDA8B826D25DC4A2481AC7 /* ESPWifiNetwork.swift */,
+			);
+			name = Model;
+			path = NLESPProvision/Classes/Model;
+			sourceTree = "<group>";
+		};
+		9E13556A2A5521E0A5CAAAF3180F8508 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73A285B4DC6B802C4F311975BBA94C51 /* NLESPProvision */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AFA51100C7FCBC522194807BEC1C7914 /* Security2 */ = {
+			isa = PBXGroup;
+			children = (
+				1308A6D0A487B07EC5C42E33F2C8F5B1 /* ESPSecurity2.swift */,
+				BBFC9B829292FA21590E75DB2068DF5C /* BigInt */,
+				57B1F7484F39A9DE1A66F9D346703402 /* SRP */,
+			);
+			name = Security2;
+			path = NLESPProvision/Classes/Security2;
+			sourceTree = "<group>";
+		};
+		BBFC9B829292FA21590E75DB2068DF5C /* BigInt */ = {
+			isa = PBXGroup;
+			children = (
+				53CFB8E55D81EF0470689A62DF655162 /* Addition.swift */,
+				9C23AA76AC2B332301E98CBF8843CEC4 /* BigUInt.swift */,
+				1C4F6F5B19DF5A6BE8E6A54C8DDF09AD /* Bitwise Ops.swift */,
+				6103680BEFC22A907390A80A7191E292 /* Comparable.swift */,
+				527BEE2240B02225BA650D77E6F550B6 /* Data Conversion.swift */,
+				0EDFEA6F3CDC494E28A24535073D9454 /* Division.swift */,
+				AD9B6F8E04571937468D0DF397E697D7 /* Exponentiation.swift */,
+				F957D9D1F66D45C9867F275D9583C74A /* Floating Point Conversion.swift */,
+				89B4B51070455893AF68DF2214AE8A81 /* Hashable.swift */,
+				9F4112AE89CA1CBB0F034D7D1AB8FF35 /* Integer Conversion.swift */,
+				EE440D51B5075E20890FB9CA452CAACA /* Multiplication.swift */,
+				94E560AAB024049B03E0E97694CF7F3C /* Shifts.swift */,
+				CB0555C37E55192CA72348E8E8D0C122 /* String Conversion.swift */,
+				BD1B9F41878EDE680335BB542B72DC70 /* Subtraction.swift */,
+				13FE8ABA5B98AF77DD0D212F64FBA86D /* Words and Bits.swift */,
+			);
+			name = BigInt;
+			path = BigInt;
 			sourceTree = "<group>";
 		};
 		C7D37D06DAD0BED5EBF7E683B357E6C7 /* Products */ = {
@@ -174,7 +369,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				ACDFAC8E3FA9D50DB0CE5DF96C8FF83B /* Development Pods */,
+				9E13556A2A5521E0A5CAAAF3180F8508 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C7D37D06DAD0BED5EBF7E683B357E6C7 /* Products */,
 				F8A9AD7E29FA6BB7EC1616C067DC30CE /* Targets Support Files */,
@@ -197,6 +392,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		EC12AB64073E0F0FA92060EA5C1470A0 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				127D59EDD8FCBE0636997B798A05970F /* ESPConstants.swift */,
+				317EEDFF252691354F481F5EF49059D4 /* ESPErrors.swift */,
+				59D674B2B6065823D79CD4064AD603F6 /* ESPExtensions.swift */,
+				0DC935B9E6728A18647C6DA6AC05DBA9 /* ESPLogging.swift */,
+				27FA50C76C8667EC34015A76D0F13E18 /* ESPUtility.swift */,
+				CAC29DF3FEB2DC5B0BB79C84DF572909 /* HexUtils.swift */,
+			);
+			name = Utility;
+			path = NLESPProvision/Classes/Utility;
+			sourceTree = "<group>";
+		};
 		F8A9AD7E29FA6BB7EC1616C067DC30CE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +413,19 @@
 				5379242AF3B2BC3CC49B8CE76563974D /* Pods-NLESPProvision_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FD18CACA2D2CE13B101AD9B30335326B /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				888ED86CC0889E003CE5AB235CF36B0B /* AESDecryptor.swift */,
+				A7E803BB39C982C8D93D0482265DA6A0 /* CryptoAES.swift */,
+				4E32FB5E52F19F9632142BB6CFE54F5D /* ESPCodeable.swift */,
+				17E4A75021ED634994EBCC63C93698EF /* ESPSecurity0.swift */,
+				FD04B945F8F6CB6B6E4C4F6BC208AD24 /* ESPSecurity1.swift */,
+			);
+			name = Crypto;
+			path = NLESPProvision/Classes/Crypto;
 			sourceTree = "<group>";
 		};
 		FD7229E4158AF756CC184E5DF65D4748 /* Pods-NLESPProvision_Example */ = {
@@ -234,11 +456,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26DD1626EA4E857CFD4E7EA3650CC6CA /* Headers */ = {
+		574349E438CADFAC651E2C1BA423B463 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C53B8DB84DC91D57691176DF387C9E05 /* NLESPProvision-umbrella.h in Headers */,
+				87F1179FEF1373A5D99B4B4A91F4D3C2 /* NLESPProvision-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +487,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D943EB1A931F15BAA0F5D2B2E88C285C /* PBXTargetDependency */,
+				71F785C05FE0CD45D7D014EB398E50C6 /* PBXTargetDependency */,
 			);
 			name = "Pods-NLESPProvision_Example";
 			productName = Pods_NLESPProvision_Example;
@@ -284,7 +506,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8347E165D382328EC38FF8EA08FB4191 /* PBXTargetDependency */,
+				66C36DDA4489E5CD81D822D36FB54DA1 /* PBXTargetDependency */,
 			);
 			name = "Pods-NLESPProvision_Tests";
 			productName = Pods_NLESPProvision_Tests;
@@ -293,12 +515,12 @@
 		};
 		CB29870424F188331DC9D4ACF034E28E /* NLESPProvision */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4114C755CD8113BA56331429334609AB /* Build configuration list for PBXNativeTarget "NLESPProvision" */;
+			buildConfigurationList = 5AF5CA40867B6FC790EE797E411611F4 /* Build configuration list for PBXNativeTarget "NLESPProvision" */;
 			buildPhases = (
-				26DD1626EA4E857CFD4E7EA3650CC6CA /* Headers */,
-				7ED3B7745648EF26FF0A0D2C6E53F516 /* Sources */,
-				400F2213C3FE54E10D181EFFEDF3D428 /* Frameworks */,
-				86AF6ED1A3430AEDDB1C3A5C858B2EB3 /* Resources */,
+				574349E438CADFAC651E2C1BA423B463 /* Headers */,
+				C9C74A9657EAF921B22DFE167C8F75E8 /* Sources */,
+				7DEF855EC28216714B1E88194952B6C4 /* Frameworks */,
+				05B356F0ED52B2E5AE869048C64285FA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -348,7 +570,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86AF6ED1A3430AEDDB1C3A5C858B2EB3 /* Resources */ = {
+		05B356F0ED52B2E5AE869048C64285FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,33 +603,119 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7ED3B7745648EF26FF0A0D2C6E53F516 /* Sources */ = {
+		C9C74A9657EAF921B22DFE167C8F75E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0367F7E4EAF67DDA8C94708E7D3DDCFA /* NLESPProvision-dummy.m in Sources */,
-				336C2CC9C7F7F5B3988BAB09E32DFDB2 /* ReplaceMe.swift in Sources */,
+				91036D0B0DFE12B0A7CBE2E181D8DA57 /* Addition.swift in Sources */,
+				174B3F48F2A0C32652F4EEA169C63A5F /* AESDecryptor.swift in Sources */,
+				6CB501EFE1FACB2354C19AE3BBC03493 /* AuthenticationFailure.swift in Sources */,
+				18625C60097C2671738B88EF90B79612 /* BigUInt.swift in Sources */,
+				4A65ED6E5C65073FDCE7FCA4332148CB /* Bitwise Ops.swift in Sources */,
+				A3FB14D9D4FDADD3973213CC86CFD0A2 /* Client.swift in Sources */,
+				8B62DF208594DE6FA59CED701E107F13 /* Comparable.swift in Sources */,
+				FAE2CFCC8CEF46F959E16E6B0AACE7C9 /* constants.pb.swift in Sources */,
+				D1E214C9BE3A8E146CEC22B94F13AC08 /* CryptoAES.swift in Sources */,
+				CD105B5A1E2DD6AE873B8C3FD4307FF6 /* Data Conversion.swift in Sources */,
+				561D235073AFD98504A27DB249F57343 /* Data+Extensions.swift in Sources */,
+				160077F51BF9FDA654F51DF728CC864D /* Division.swift in Sources */,
+				DD0F6019FF4B63F068BB62A5A0493CB1 /* ESPBleTransport.swift in Sources */,
+				1BA657B5F57659F33B4AE4AEB88E112C /* ESPCodeable.swift in Sources */,
+				D778AAC154527FD3A4D822EA9BC23A0A /* ESPCommunicable.swift in Sources */,
+				91550D9F2047156CB1BF7A9CD55C55DF /* ESPConstants.swift in Sources */,
+				BAFE33E8547F0582746F985DA753AD3E /* ESPDevice.swift in Sources */,
+				9475EAC6FC14EC1D784426184CF916B5 /* ESPErrors.swift in Sources */,
+				F4544B9CF84C65ABE7CCDE6C37CFC3FF /* ESPExtensions.swift in Sources */,
+				B181868B9F96B227C15BF9859C194130 /* ESPLogging.swift in Sources */,
+				A56BBE1984F17FC5294A0B4C555CF8BD /* ESPProvision.swift in Sources */,
+				55A663BF58E099C289303A3099D7F96A /* ESPProvisionManager.swift in Sources */,
+				177DAC734ACD509CFB6E2351F925405B /* ESPScanResult.swift in Sources */,
+				6B89896738F24759410D111D0B10F0AA /* ESPScanStatus.swift in Sources */,
+				220D2C1B79B9572E14B24524825D8F92 /* ESPSecurity0.swift in Sources */,
+				BC721DFBA22A0E4B13518EAD242C2F2D /* ESPSecurity1.swift in Sources */,
+				E0AA0900ED6F9A6BDAE5D470898200FE /* ESPSecurity2.swift in Sources */,
+				929E9A777EF22DA2448B6ABFFC08B3E3 /* ESPSession.swift in Sources */,
+				5B775CA591D65171F9363BA644E151D1 /* ESPSoftAPTransport.swift in Sources */,
+				F66650FD60B37E8A3924BADD0A776A4C /* ESPUtility.swift in Sources */,
+				2540E68F5CEF54E15EEC63CDC89BC575 /* ESPWiFiManager.swift in Sources */,
+				35FBF23607FFDB501EB9DA699EAE20B3 /* ESPWifiNetwork.swift in Sources */,
+				E4B109BE514D220E8C41B846E2D47B98 /* Exponentiation.swift in Sources */,
+				44D89220C2FEAA764DFF9664EE33C6D8 /* Floating Point Conversion.swift in Sources */,
+				BF9BF3D117690FB9EB601E4184B5AD78 /* Group.swift in Sources */,
+				6658B8740F87A2D514323A256FBAFDCE /* Hashable.swift in Sources */,
+				77FC52E038FEBC6E6C689DC4FFAD1EDB /* HexUtils.swift in Sources */,
+				F15F5A906A5830C0D0EF7BC81EFC03A2 /* Integer Conversion.swift in Sources */,
+				F82DA082E7957169AA5BE43A578CE53F /* Multiplication.swift in Sources */,
+				96AEDF58232C82C499860AA26D2E9A68 /* NLESPProvision-dummy.m in Sources */,
+				97688F07B26E3BB0A77D414AB2273CC8 /* sec0.pb.swift in Sources */,
+				B6219BAD00DD38C5FD53B5A9B3FCE8B4 /* sec1.pb.swift in Sources */,
+				326AB7FEA4FF40948752C8ED30BBE902 /* sec2.pb.swift in Sources */,
+				03A29CF488E7B05045FDD8EE91981B64 /* session.pb.swift in Sources */,
+				F6CCD0DCD4EC7D9636E6F7060CB0D52F /* Shifts.swift in Sources */,
+				4962A7C2D4FA45B7B6EFCE35EBEDA88E /* SRP.swift in Sources */,
+				AA683A25AEBE2EAA18BA0AD18E5C91EE /* String Conversion.swift in Sources */,
+				4F85DFC88E98FD9ECB877AA9A4DD6379 /* Subtraction.swift in Sources */,
+				148DDBD45B2EEC6445A1B4D6DBB88D7D /* wifi_config.pb.swift in Sources */,
+				D7EC346369542C5DFE235C922F12DAB2 /* wifi_constants.pb.swift in Sources */,
+				678AB4E34B19EFD87975B0333A860B9A /* wifi_scan.pb.swift in Sources */,
+				691320896636236F0A2AADCE4D3F4634 /* Words and Bits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8347E165D382328EC38FF8EA08FB4191 /* PBXTargetDependency */ = {
+		66C36DDA4489E5CD81D822D36FB54DA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NLESPProvision_Example";
 			target = 06F8C843BBC7FB7CC246C1551A49FBB1 /* Pods-NLESPProvision_Example */;
-			targetProxy = E2DBE83150B041417D779688DBADBA00 /* PBXContainerItemProxy */;
+			targetProxy = 9EE9867D9D821B2F52CA36C11504D557 /* PBXContainerItemProxy */;
 		};
-		D943EB1A931F15BAA0F5D2B2E88C285C /* PBXTargetDependency */ = {
+		71F785C05FE0CD45D7D014EB398E50C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NLESPProvision;
 			target = CB29870424F188331DC9D4ACF034E28E /* NLESPProvision */;
-			targetProxy = 240A7B6AC0DFE77A635F8C8A592E6E3E /* PBXContainerItemProxy */;
+			targetProxy = 1368D5FF2E58FE28F7F57D6D5B2B691A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2048BFD44E468AE0BD94CC917FD25C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F7B5EFA215C006E0AA4897AFA1257F /* NLESPProvision.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/NLESPProvision/NLESPProvision-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/NLESPProvision/NLESPProvision-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NLESPProvision/NLESPProvision.modulemap";
+				PRODUCT_MODULE_NAME = NLESPProvision;
+				PRODUCT_NAME = NLESPProvision;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		377067B8947DEC7FF7E81B6EDDDEA48A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB4E9E3BBC4F5EEA47C1CA9BE5F2F61F /* Pods-NLESPProvision_Example.release.xcconfig */;
@@ -443,41 +751,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		3BD585F3A57C934665182814AA42B443 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C251E4782236B904126C62D45DF93555 /* NLESPProvision.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/NLESPProvision/NLESPProvision-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/NLESPProvision/NLESPProvision-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NLESPProvision/NLESPProvision.modulemap";
-				PRODUCT_MODULE_NAME = NLESPProvision;
-				PRODUCT_NAME = NLESPProvision;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		3DDAA61C11554FB7564ECBA54DB6BBC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -611,6 +884,41 @@
 			};
 			name = Debug;
 		};
+		A35A630051DA1280488D11C9D6EBC0A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60AE66E3D981DEA275CC3B9ED04D0102 /* NLESPProvision.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/NLESPProvision/NLESPProvision-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/NLESPProvision/NLESPProvision-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NLESPProvision/NLESPProvision.modulemap";
+				PRODUCT_MODULE_NAME = NLESPProvision;
+				PRODUCT_NAME = NLESPProvision;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		CDB4A616259BF7DD8BB48FAF28F7ECE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 96598F05C42B141BEBE8BE7FE6B48EBB /* Pods-NLESPProvision_Tests.release.xcconfig */;
@@ -713,42 +1021,6 @@
 			};
 			name = Debug;
 		};
-		E30A9551AAAF9F9B3C7D193324DE90A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 791EA23C70BDCBF87F03CBDB7E0D69E8 /* NLESPProvision.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/NLESPProvision/NLESPProvision-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/NLESPProvision/NLESPProvision-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NLESPProvision/NLESPProvision.modulemap";
-				PRODUCT_MODULE_NAME = NLESPProvision;
-				PRODUCT_NAME = NLESPProvision;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -761,20 +1033,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4114C755CD8113BA56331429334609AB /* Build configuration list for PBXNativeTarget "NLESPProvision" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3BD585F3A57C934665182814AA42B443 /* Debug */,
-				E30A9551AAAF9F9B3C7D193324DE90A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF5CA40867B6FC790EE797E411611F4 /* Build configuration list for PBXNativeTarget "NLESPProvision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35A630051DA1280488D11C9D6EBC0A1 /* Debug */,
+				2048BFD44E468AE0BD94CC917FD25C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

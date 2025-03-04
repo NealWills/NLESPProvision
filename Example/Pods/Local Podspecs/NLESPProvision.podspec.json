@@ -1,9 +1,9 @@
 {
   "name": "NLESPProvision",
-  "version": "0.1.0",
-  "summary": "A short description of NLESPProvision.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Neal/NLESPProvision",
+  "version": "0.9.0",
+  "summary": "MMT Local Provision SDK.",
+  "description": "MMT Local Provision SDK. For more information, please visit",
+  "homepage": "https://github.com/NealWills/NLESPProvision",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "Neal": "nealwills93@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Neal/NLESPProvision.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/NealWills/NLESPProvision.git",
+    "tag": "0.9.0"
   },
   "platforms": {
     "ios": "10.0"

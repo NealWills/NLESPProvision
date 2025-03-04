@@ -28,9 +28,17 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/NealWills/NLESPProvision.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'NLESPProvision/Classes/**/*'
+  spec.platform = :ios, "13.0"
+
+  spec.subspec 'Core' do |cs|
+      cs.dependency "SwiftProtobuf", "~> 1.22.0"
+      cs.dependency 'XCGLogger'
+  end
+
+  spec.swift_versions = ['5.1', '5.2']
   
   # s.resource_bundles = {
   #   'NLESPProvision' => ['NLESPProvision/Assets/*.png']

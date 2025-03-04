@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1A58E26ABD9ED64216EA3C6F /* Pods-NLESPProvision_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NLESPProvision_Example.debug.xcconfig"; path = "Target Support Files/Pods-NLESPProvision_Example/Pods-NLESPProvision_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		290A5CEE2C24F2491730CA55 /* NLESPProvision.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NLESPProvision.podspec; path = ../NLESPProvision.podspec; sourceTree = "<group>"; };
+		290A5CEE2C24F2491730CA55 /* NLESPProvision.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NLESPProvision.podspec; path = ../NLESPProvision.podspec; sourceTree = "<group>"; };
 		5142C3000D43048E681004E9 /* Pods-NLESPProvision_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NLESPProvision_Tests.release.xcconfig"; path = "Target Support Files/Pods-NLESPProvision_Tests/Pods-NLESPProvision_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NLESPProvision_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLESPProvision_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* NLESPProvision_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NLESPProvision_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9A6DBD04931264899A463A79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9A6DBD04931264899A463A79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BB77298A1AF0DD291BDC6387 /* Pods_NLESPProvision_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NLESPProvision_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF4FD4234A15CD0FE9DCDF5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BF4FD4234A15CD0FE9DCDF5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C6BD3BD800C26AFF88B436CA /* Pods-NLESPProvision_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NLESPProvision_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NLESPProvision_Tests/Pods-NLESPProvision_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F212B993FE049DDDBC63310D /* Pods_NLESPProvision_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NLESPProvision_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E8E0890BACC6485F19DBD1 /* Pods-NLESPProvision_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NLESPProvision_Example.release.xcconfig"; path = "Target Support Files/Pods-NLESPProvision_Example/Pods-NLESPProvision_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				C6BD3BD800C26AFF88B436CA /* Pods-NLESPProvision_Tests.debug.xcconfig */,
 				5142C3000D43048E681004E9 /* Pods-NLESPProvision_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,6 +213,7 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,11 +479,14 @@
 			baseConfigurationReference = 1A58E26ABD9ED64216EA3C6F /* Pods-NLESPProvision_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NLESPProvision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -493,11 +497,14 @@
 			baseConfigurationReference = F6E8E0890BACC6485F19DBD1 /* Pods-NLESPProvision_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NLESPProvision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

@@ -31,14 +31,14 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'NLESPProvision/Classes/**/*'
-  spec.platform = :ios, "13.0"
+  s.platform = :ios, "13.0"
 
-  spec.subspec 'Core' do |cs|
+  s.subspec 'Core' do |cs|
       cs.dependency "SwiftProtobuf", "~> 1.22.0"
       cs.dependency 'XCGLogger'
   end
 
-  spec.swift_versions = ['5.1', '5.2']
+  s.swift_versions = ['5.1', '5.2']
   
   # s.resource_bundles = {
   #   'NLESPProvision' => ['NLESPProvision/Assets/*.png']

@@ -1,0 +1,6 @@
+framework module NLESPProvision {
+  umbrella header "NLESPProvision-umbrella.h"
+
+  export *
+  module * { export * }
+}

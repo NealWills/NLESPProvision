@@ -1,0 +1,16 @@
+PODS:
+  - NLESPProvision (0.1.0)
+
+DEPENDENCIES:
+  - NLESPProvision (from `../`)
+
+EXTERNAL SOURCES:
+  NLESPProvision:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NLESPProvision: f1cdc6ce8fbed4fa4dd5cf9721738486ea7df91c
+
+PODFILE CHECKSUM: e165b4c751870db4e1c256f5bd2a8f87f9f7ec6a
+
+COCOAPODS: 1.16.2

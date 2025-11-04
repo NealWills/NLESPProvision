@@ -16,7 +16,7 @@
 //  ESPProvision
 //
 
-import XCGLogger
+import MMTToolForXCGLog
 
 import Foundation
 

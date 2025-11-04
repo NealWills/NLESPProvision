@@ -16,7 +16,23 @@
     "tag": "0.9.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "NLESPProvision/Classes/**/*"
+  "source_files": "NLESPProvision/Classes/**/*",
+  "swift_versions": [
+    "5.1",
+    "5.2"
+  ],
+  "subspecs": [
+    {
+      "name": "Core",
+      "dependencies": {
+        "SwiftProtobuf": [
+          "~> 1.22.0"
+        ],
+        "MMTToolForXCGLog": []
+      }
+    }
+  ],
+  "swift_version": "5.2"
 }

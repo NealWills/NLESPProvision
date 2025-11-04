@@ -1,16 +1,35 @@
 PODS:
-  - NLESPProvision (0.9.0)
+  - MMTToolForXCGLog (0.1.2):
+    - ObjcExceptionBridging (~> 7.1.5)
+  - NLESPProvision (0.9.0):
+    - NLESPProvision/Core (= 0.9.0)
+  - NLESPProvision/Core (0.9.0):
+    - MMTToolForXCGLog
+    - SwiftProtobuf (~> 1.22.0)
+  - ObjcExceptionBridging (7.1.5):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 7.1.5)
+  - ObjcExceptionBridging/ObjcExceptionBridging (7.1.5)
+  - SwiftProtobuf (1.22.1)
 
 DEPENDENCIES:
   - NLESPProvision (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MMTToolForXCGLog
+    - ObjcExceptionBridging
+    - SwiftProtobuf
 
 EXTERNAL SOURCES:
   NLESPProvision:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NLESPProvision: b7627077c34de4372916d9e500947b158ceb4b5b
+  MMTToolForXCGLog: d6044ba216159d47c9980cbeda34d941224bc1c2
+  NLESPProvision: 81152d3c6647d31986d31b49927ee385ddd11202
+  ObjcExceptionBridging: d3d37d62981bb7f252ecb31b62d7e23a96bbfb8a
+  SwiftProtobuf: 7773c4e96a99d7b8ab7cda0fc30a883732ff93b1
 
-PODFILE CHECKSUM: e165b4c751870db4e1c256f5bd2a8f87f9f7ec6a
+PODFILE CHECKSUM: 700dc38a8bce6c26628432c02390f03a6b3155f0
 
 COCOAPODS: 1.16.2

@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |cs|
       cs.dependency "SwiftProtobuf", "~> 1.22.0"
-      cs.dependency 'XCGLogger'
+      cs.dependency 'MMTToolForXCGLog'
   end
 
   s.swift_versions = ['5.1', '5.2']
